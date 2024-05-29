@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextRA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RA"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-1dp"
+            android:hint="Nome" />
+
+        <EditText
+            android:id="@+id/editTextCEP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CEP"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextLogradouro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Logradouro" />
+
+        <EditText
+            android:id="@+id/editTextComplemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Complemento" />
+
+        <EditText
+            android:id="@+id/editTextBairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bairro" />
+
+        <EditText
+            android:id="@+id/editTextCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cidade" />
+
+        <EditText
+            android:id="@+id/editTextUF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="UF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonBuscarCEP"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="CEP" />
+
+            <Button
+                android:id="@+id/buttonSalvar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastrar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
